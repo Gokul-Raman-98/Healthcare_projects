@@ -29,3 +29,20 @@ discharge_disposition_map contains the discharge description and their respectiv
 
 
 <img width="1462" height="292" alt="image" src="https://github.com/user-attachments/assets/0b50d5a3-6390-4795-adcb-0ca71408c5e4" />
+
+
+2. Find the percentage of missing values in weight, payer_code and medical specialty columns
+
+<img width="1042" height="240" alt="image" src="https://github.com/user-attachments/assets/b7d88702-5cce-4b84-83ec-3c53300fb9e3" />
+
+
+<img width="590" height="65" alt="image" src="https://github.com/user-attachments/assets/8c62c7d6-96cd-472c-9fb2-2c53d1c0b6f7" />
+
+
+3. Find the duplicate records in the dataset
+
+<img width="442" height="312" alt="image" src="https://github.com/user-attachments/assets/b6902c6d-2140-47e2-8f0b-f72f5ccc97d1" />
+
+
+<img width="307" height="297" alt="image" src="https://github.com/user-attachments/assets/586e04b7-f68c-4de4-9f39-4b1c6092c4eb" />
+
