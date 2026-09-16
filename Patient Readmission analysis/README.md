@@ -155,3 +155,14 @@ discharge_disposition_map contains the discharge description and their respectiv
 
 <img width="497" height="157" alt="image" src="https://github.com/user-attachments/assets/23e32a32-3d1d-4aef-b7ae-762342100d40" />
 
+
+
+# Key Findings
+
+1. Circulatory and diabetes-related diagnoses recorded the highest readmission rates across diagnosis categories, with both exceeding the overall average.
+
+2. Patients with a higher number of prior inpatient visits during the previous year demonstrated a significantly greater likelihood of readmission, indicating that prior healthcare utilization is a strong predictor of readmission risk.
+
+3. Discharge disposition was also associated with readmission outcomes, with patients discharged to certain healthcare facilities showing notably different readmission rates compared with those discharged home.
+
+4. Patterns related to medication changes at discharge and A1C testing during hospitalization provided insights relevant to the original clinical research questions underlying the dataset.
