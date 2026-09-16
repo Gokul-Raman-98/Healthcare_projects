@@ -125,33 +125,7 @@ discharge_disposition_map contains the discharge description and their respectiv
 
 -- Find the diagnosis_categories that have the highest readmission_rate_percentage
 
-WITH diag_categorized AS (
-	SELECT
-		encounter_id, 
-        readmitted, 
-        CASE
-			WHEN diag_1 LIKE '250%' THEN 'Diabetes'
-            WHEN CAST(LEFT(diag_1, 3) AS UNSIGNED) BETWEEN 390 AND 459 THEN 'CIRCULATORY'
-			WHEN CAST(LEFT(diag_1, 3) AS UNSIGNED) BETWEEN 460 AND 519 THEN 'Respiratory'
-            WHEN CAST(LEFT(diag_1, 3) AS UNSIGNED) BETWEEN 520 AND 579 THEN 'Digestive'
-            WHEN CAST(LEFT(diag_1, 3) AS UNSIGNED) BETWEEN 580 AND 629 THEN 'Genitourinary'
-            WHEN CAST(LEFT(diag_1, 3) AS UNSIGNED) BETWEEN 800 AND 999 THEN 'Injury'
-		ELSE 'Other'
-	END AS diagnosis_cateogry, 
-    CASE WHEN readmitted = '<30' THEN 1 ELSE 0 END AS is_readmitted_30
-	FROM diabetic_data_dedup
-    WHERE diag_1 IS NOT NULL
-)
-SELECT
-	diagnosis_cateogry, 
-    COUNT(*) AS total_encounters, 
-    ROUND(AVG(is_readmitted_30) * 100, 1) AS readmission_rate_pct
-FROM diag_categorized
-GROUP BY diagnosis_cateogry
-HAVING AVG(is_readmitted_30) > (
-	SELECT AVG(is_readmitted_30) FROM diag_categorized
-)
-ORDER BY readmission_rate_pct DESC;
+<img width="805" height="620" alt="image" src="https://github.com/user-attachments/assets/879979b8-6309-4d7c-8814-9a7dbdab3863" />
 
 
 <img width="462" height="107" alt="image" src="https://github.com/user-attachments/assets/32eeccd0-e7dc-4ddf-ae1c-f8b8a160f08c" />
