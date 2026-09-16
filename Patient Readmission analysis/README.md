@@ -67,7 +67,7 @@ discharge_disposition_map contains the discharge description and their respectiv
 <img width="347" height="577" alt="image" src="https://github.com/user-attachments/assets/077482cc-c9c1-49c2-a08c-728b61819d20" />
 
 
-7. Find the Total patient visits with respect to the radmission column and find the respective pct of total values
+7. Find the Total patient visits with respect to the readmission column and find the respective pct of total values
 
 <img width="700" height="347" alt="image" src="https://github.com/user-attachments/assets/9c9cfb22-ddc3-4a41-a849-05fecb15034d" />
 
@@ -75,4 +75,17 @@ discharge_disposition_map contains the discharge description and their respectiv
 <img width="415" height="126" alt="image" src="https://github.com/user-attachments/assets/e955a8dc-960c-4c20-83ae-d9172bc075ab" />
 
 
-8. 
+8. Find the same total patients and their pct values with respect to their age
+
+<img width="900" height="342" alt="image" src="https://github.com/user-attachments/assets/9f5fa386-166b-43ee-9fdf-8192b3374459" />
+
+
+<img width="787" height="292" alt="image" src="https://github.com/user-attachments/assets/bdebdb6c-64de-47b3-9185-54fa6d6f9e86" />
+
+
+9. Find the readmission rate percent with  respect to admission source description
+
+<img width="937" height="355" alt="image" src="https://github.com/user-attachments/assets/b1845a91-13bd-4eb3-b0b4-e7923e470aab" />
+
+
+<img width="700" height="450" alt="image" src="https://github.com/user-attachments/assets/f661b7ac-d27b-49f2-a00f-251ca86a320a" />
