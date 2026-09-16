@@ -108,3 +108,10 @@ discharge_disposition_map contains the discharge description and their respectiv
 <img width="521" height="657" alt="image" src="https://github.com/user-attachments/assets/b7b4a331-00a0-446e-a0ae-24720f45d144" />
 
 
+12. Create column where the num_medication values are categorised as 'Low', 'Medium' and 'High'. Create column where the num_diagnoses values are categorised as 'Low', 'Medium' and 'High' complexities
+
+<img width="757" height="677" alt="image" src="https://github.com/user-attachments/assets/ea8ba8fd-deae-4133-995a-b8afa1e8fd68" />
+
+
+
+
