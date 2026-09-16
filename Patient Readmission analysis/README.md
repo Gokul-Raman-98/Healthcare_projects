@@ -21,3 +21,11 @@ discharge_disposition_map contains the discharge description and their respectiv
 <img width="1051" height="762" alt="image" src="https://github.com/user-attachments/assets/f07fa518-9325-4259-bde6-8e6de6eaa496" />
 
 
+# SQL queries and results
+
+1. Replace the question mark values in the race, weight, payer_code, medical_specialty, diag_1, diag_2, diag_3 columns with NULL
+
+<img width="571" height="397" alt="image" src="https://github.com/user-attachments/assets/0dd5fb87-f11e-4f04-8c17-36b300f2b2ff" />
+
+
+<img width="1462" height="292" alt="image" src="https://github.com/user-attachments/assets/0b50d5a3-6390-4795-adcb-0ca71408c5e4" />
