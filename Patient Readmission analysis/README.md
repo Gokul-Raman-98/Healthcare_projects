@@ -89,3 +89,12 @@ discharge_disposition_map contains the discharge description and their respectiv
 
 
 <img width="700" height="450" alt="image" src="https://github.com/user-attachments/assets/f661b7ac-d27b-49f2-a00f-251ca86a320a" />
+
+
+10. Create a rank column based on the num_medications gone through in each encounter
+
+<img width="1007" height="552" alt="image" src="https://github.com/user-attachments/assets/622e3cfc-6239-4ad1-b0b5-11f82bd1dc5d" />
+
+
+<img width="662" height="547" alt="image" src="https://github.com/user-attachments/assets/42e7fc49-7cd7-4874-aef9-3867cd90d48a" />
+
