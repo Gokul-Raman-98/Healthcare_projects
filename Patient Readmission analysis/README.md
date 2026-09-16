@@ -110,7 +110,52 @@ discharge_disposition_map contains the discharge description and their respectiv
 
 12. Create column where the num_medication values are categorised as 'Low', 'Medium' and 'High'. Create column where the num_diagnoses values are categorised as 'Low', 'Medium' and 'High' complexities
 
+<img width="927" height="532" alt="image" src="https://github.com/user-attachments/assets/a4b16755-0a40-4103-94fd-7e5468e03682" />
+
+
 <img width="757" height="677" alt="image" src="https://github.com/user-attachments/assets/ea8ba8fd-deae-4133-995a-b8afa1e8fd68" />
+
+13. -- Categorize the diag_1 column as per the notes given below
+-- diag_1 notes
+-- 390–459: Diseases of the circulatory system
+-- 460–519: Diseases of the respiratory system
+-- 520–579: Diseases of the digestive system
+-- 580–629: Diseases of the genitourinary system
+-- 800–999: Injury and poisoning
+
+-- Find the diagnosis_categories that have the highest readmission_rate_percentage
+
+WITH diag_categorized AS (
+	SELECT
+		encounter_id, 
+        readmitted, 
+        CASE
+			WHEN diag_1 LIKE '250%' THEN 'Diabetes'
+            WHEN CAST(LEFT(diag_1, 3) AS UNSIGNED) BETWEEN 390 AND 459 THEN 'CIRCULATORY'
+			WHEN CAST(LEFT(diag_1, 3) AS UNSIGNED) BETWEEN 460 AND 519 THEN 'Respiratory'
+            WHEN CAST(LEFT(diag_1, 3) AS UNSIGNED) BETWEEN 520 AND 579 THEN 'Digestive'
+            WHEN CAST(LEFT(diag_1, 3) AS UNSIGNED) BETWEEN 580 AND 629 THEN 'Genitourinary'
+            WHEN CAST(LEFT(diag_1, 3) AS UNSIGNED) BETWEEN 800 AND 999 THEN 'Injury'
+		ELSE 'Other'
+	END AS diagnosis_cateogry, 
+    CASE WHEN readmitted = '<30' THEN 1 ELSE 0 END AS is_readmitted_30
+	FROM diabetic_data_dedup
+    WHERE diag_1 IS NOT NULL
+)
+SELECT
+	diagnosis_cateogry, 
+    COUNT(*) AS total_encounters, 
+    ROUND(AVG(is_readmitted_30) * 100, 1) AS readmission_rate_pct
+FROM diag_categorized
+GROUP BY diagnosis_cateogry
+HAVING AVG(is_readmitted_30) > (
+	SELECT AVG(is_readmitted_30) FROM diag_categorized
+)
+ORDER BY readmission_rate_pct DESC;
+
+
+<img width="462" height="107" alt="image" src="https://github.com/user-attachments/assets/32eeccd0-e7dc-4ddf-ae1c-f8b8a160f08c" />
+
 
 
 
