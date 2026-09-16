@@ -46,3 +46,10 @@ discharge_disposition_map contains the discharge description and their respectiv
 
 <img width="307" height="297" alt="image" src="https://github.com/user-attachments/assets/586e04b7-f68c-4de4-9f39-4b1c6092c4eb" />
 
+4. Create a new table removing all the duplicate patient encounters. Consider their first encounter as their only encounter
+
+<img width="411" height="616" alt="image" src="https://github.com/user-attachments/assets/10978bb6-2330-4437-a67b-9708d4bedb35" />
+
+
+<img width="1547" height="507" alt="image" src="https://github.com/user-attachments/assets/77234265-05fe-4f30-b4b9-d8279bec7b48" />
+
