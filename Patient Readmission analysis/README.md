@@ -53,3 +53,26 @@ discharge_disposition_map contains the discharge description and their respectiv
 
 <img width="1547" height="507" alt="image" src="https://github.com/user-attachments/assets/77234265-05fe-4f30-b4b9-d8279bec7b48" />
 
+
+5. Exclude the patients from the dataset who were expired or sent to hospice
+
+<img width="662" height="497" alt="image" src="https://github.com/user-attachments/assets/dfd386b7-6351-495e-86a7-582d2eea99ed" />
+
+
+<img width="135" height="70" alt="image" src="https://github.com/user-attachments/assets/109ccdbf-5efe-4e10-9421-47cd669b2b95" />
+
+
+6. Create an age column where the age of patients are changed from range to a fixed value
+
+<img width="347" height="577" alt="image" src="https://github.com/user-attachments/assets/077482cc-c9c1-49c2-a08c-728b61819d20" />
+
+
+7. Find the Total patient visits with respect to the radmission column and find the respective pct of total values
+
+<img width="700" height="347" alt="image" src="https://github.com/user-attachments/assets/9c9cfb22-ddc3-4a41-a849-05fecb15034d" />
+
+
+<img width="415" height="126" alt="image" src="https://github.com/user-attachments/assets/e955a8dc-960c-4c20-83ae-d9172bc075ab" />
+
+
+8. 
