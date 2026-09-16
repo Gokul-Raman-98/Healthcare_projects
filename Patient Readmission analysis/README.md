@@ -115,7 +115,8 @@ discharge_disposition_map contains the discharge description and their respectiv
 
 <img width="757" height="677" alt="image" src="https://github.com/user-attachments/assets/ea8ba8fd-deae-4133-995a-b8afa1e8fd68" />
 
-13. -- Categorize the diag_1 column as per the notes given below
+
+13. Categorize the diag_1 column as per the notes given below
 -- diag_1 notes
 -- 390–459: Diseases of the circulatory system
 -- 460–519: Diseases of the respiratory system
@@ -131,6 +132,26 @@ discharge_disposition_map contains the discharge description and their respectiv
 <img width="462" height="107" alt="image" src="https://github.com/user-attachments/assets/32eeccd0-e7dc-4ddf-ae1c-f8b8a160f08c" />
 
 
+14. Find whether the change in medication affect readmission
+
+<img width="950" height="257" alt="image" src="https://github.com/user-attachments/assets/a9a556e1-93af-4155-b88c-c5ae35d668ee" />
 
 
+<img width="467" height="115" alt="image" src="https://github.com/user-attachments/assets/36a4b075-f18d-49ca-966d-b125b2ffd022" />
+
+
+15. Find the impact of Discharge disposition on readmission
+
+<img width="942" height="412" alt="image" src="https://github.com/user-attachments/assets/463d9f57-67f7-47f1-b0cf-cd1c67ef8289" />
+
+
+<img width="702" height="276" alt="image" src="https://github.com/user-attachments/assets/dec9e59c-8d49-4a8a-b7f0-cd4e9d504b42" />
+
+
+16. Find how the A1C affects the readmission
+
+<img width="955" height="245" alt="image" src="https://github.com/user-attachments/assets/c9220516-e9bb-48b8-8a6c-dc84f70251de" />
+
+
+<img width="497" height="157" alt="image" src="https://github.com/user-attachments/assets/23e32a32-3d1d-4aef-b7ae-762342100d40" />
 
