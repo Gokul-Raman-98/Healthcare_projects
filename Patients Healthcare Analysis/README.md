@@ -1,0 +1,2 @@
+# POWER BI - Ecommerce Sales Dashboard | (Download dataset and pbix file in the attachments given above)
+<img width="1426" height="802" alt="image" src="https://github.com/user-attachments/assets/f4d5f24a-4fc6-4743-9f47-c59cbf09d3db" />
