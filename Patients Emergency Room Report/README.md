@@ -17,3 +17,8 @@
 <img width="1472" height="845" alt="image" src="https://github.com/user-attachments/assets/6f1ce8a5-a1cb-40a6-8eca-9ba6b0f738f4" />
 
 1. Dataset contains patient_id, age, satisfaction score, race, waititime and referral details.
+
+2. An additional Calendar table was created with CALENDAR DAX function.
+
+## DAX Measures.
+
