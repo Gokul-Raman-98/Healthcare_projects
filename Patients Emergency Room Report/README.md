@@ -12,3 +12,8 @@
 4. The linechart visual shows total patients by yaer and by each month.
 5. A gender breakdown of the patients is also shown in the report.
 
+
+## Dataset Model
+<img width="1472" height="845" alt="image" src="https://github.com/user-attachments/assets/6f1ce8a5-a1cb-40a6-8eca-9ba6b0f738f4" />
+
+1. Dataset contains patient_id, age, satisfaction score, race, waititime and referral details.
