@@ -2,7 +2,7 @@
 <img width="1426" height="802" alt="image" src="https://github.com/user-attachments/assets/f4d5f24a-4fc6-4743-9f47-c59cbf09d3db" />
 
 ## Project Description
-### A Europe based Healthcare facility requires a Report based on the Patients Emergency room data.
+### A Europe based Healthcare facility requires a Report based on the Patients Emergency room data for the years 2019 and 2020.
 
 
 
@@ -53,3 +53,13 @@
 <img width="825" height="671" alt="image" src="https://github.com/user-attachments/assets/dd977065-a7e0-4cd2-8a84-4cd3a777b7ec" />
 
 <img width="807" height="672" alt="image" src="https://github.com/user-attachments/assets/f05ee2ec-20d1-44af-8aca-9cb1fc50f395" />
+
+
+## Dashboard Insights
+1. Female patients have made the most emergency room visits.
+
+2.  Almost 60 percent of the patients have no prior referral.
+
+3.  The pacific Islander has the most highest satisfaction rate and had the most high avg wait times.
+
+4.  More patient emergency visits have happened in the weekdays compared to weekends.
