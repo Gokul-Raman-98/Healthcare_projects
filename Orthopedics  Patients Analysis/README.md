@@ -14,4 +14,7 @@ Patients analysis of orthopedics department for the year 2023.
 The dataset consists of single excel sheet comprising of patient_id, gender, age ,satisfaction score, waitime and dept referral data.
 
 ## Dashboard Insights
-
+1. The months January and July has seen the most number of patients in the orthopedics department.
+2. The average waittime varies between 30 to 39 minutes per patient for the year 2023.
+3. The highest no of child and adolescent patients were seen in the month of June and July respectively.
+4. The lowest satisfaction score is 4.1 and the highest score is 6.4. 
